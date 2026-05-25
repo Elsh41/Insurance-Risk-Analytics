@@ -13,5 +13,7 @@ Thumbs.db
 # VS Code
 .vscode/
 data/*.txt
-.pytest_cache
+.pytest_cache/
+__pycache__/
+*.pyc
 .dvc/cache/
