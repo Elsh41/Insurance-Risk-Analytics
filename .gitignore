@@ -1,0 +1,14 @@
+# Environments
+venv/
+.venv/
+env/
+# Python cache
+__pycache__/
+*.py[cod]
+# Data (Prevent pushing large CSVs)
+data/*.csv
+# System files
+.DS_Store
+Thumbs.db
+# VS Code
+.vscode/
