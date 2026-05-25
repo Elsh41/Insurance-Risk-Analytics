@@ -13,3 +13,5 @@ Thumbs.db
 # VS Code
 .vscode/
 data/*.txt
+.pytest_cache
+.dvc/cache/
