@@ -7,7 +7,7 @@ def load_insurance_data(file_path: str) -> pd.DataFrame:
         raise FileNotFoundError(f"Data file not found at: {file_path}")
         
     # sep=None lets pandas automatically figure out if it's tab, comma, or pipe separated
-    df = pd.read_csv(file_path, sep='|', index_col=False)
+    df = pd.read_csv(file_path, sep='|', index_col=False, low_memory=False)
     
     # Clean column names to remove any hidden carriage returns or spaces
     df.columns = [col.strip() for col in df.columns]
